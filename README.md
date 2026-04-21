@@ -27,11 +27,21 @@ The company lacked a clear metric to identify which operators were underperformi
 4. **Insights Generation:** Synthesized findings for the supervisory board.
 
 ## 💡 Key Findings
-> *Note: Based on the analysis of the dataset.*
+A. **Detected Inefficiency Volume**
+Out of the 1,092 operators evaluated, 308 were classified as inefficient (28.2%). However, understanding the breakdown of this metric is crucial:
 
-* **Ineffective Operators:** We identified that `[Insertar número o %]` of operators consistently exceed the average wait time by `[Insertar X]` minutes.
-* **Call Duration:** There is a statistically significant difference between internal and external calls (p-value < 0.05), suggesting `[Insertar tu conclusión, ej: external calls take longer]`.
-* **Missed Calls:** The operator `[Nombre o ID]` had the highest rate of missed calls, correlating with peak hours.
+Low Outbound Activity: The vast majority (271 operators) were flagged for low outbound call volume. This suggests that many might be dedicated exclusively to inbound support. Therefore, this indicator warrants a case-by-case review to rule out false positives.
+
+Excessive Wait Times: A critical group of 44 operators exhibited prolonged wait times. This represents the most urgent issue to address, as it directly impacts the overall customer experience.
+
+Missed Calls: The issue of missed calls is marginal. Only 13 operators showed severe deficiencies in this area, indicating that the inbound call infrastructure remains highly robust.
+
+B. **Correlation with Pricing Plans**
+Statistical testing confirmed a direct relationship between the client's contracted plan and operator efficiency:
+
+Plan A: Clients subscribed to this tier feature the most efficient operators, with an inefficiency rate of only 18%.
+
+Plan C: This is the most problematic segment, where the inefficient operator rate spikes to 35.7%. This disparity suggests that companies utilizing Plan C may be experiencing staff saturation, high workloads, or a lack of supervision.
 
 ## 🚀 How to Run
 1. Clone this repository:
